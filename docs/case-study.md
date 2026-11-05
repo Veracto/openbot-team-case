@@ -6,15 +6,15 @@ A small organization has recurring work across research, content, growth and rel
 
 ## Design decisions
 
-1. **Roles follow responsibilities.** Content Lead owns the content flow; research and production are separate specialist capabilities. Growth and CRM have distinct areas of work.
+1. **Roles follow responsibilities.** Content Lead owns the content flow and coordinates research, production and growth analysis. CRM manages a separate area of work.
 2. **A known task goes to its owner.** Work does not need a universal router or a new background system simply because more than one agent exists. Shared discussions and cross-team coordination are used when the task calls for them.
 3. **People retain decisions.** Agents produce material and carry out scoped tasks. A person remains responsible for business judgment and publication.
 4. **Access is part of the operating model.** The company team uses defined company resources and tools; unrelated private contexts and administrative capabilities are outside its scope. A team-member interface and an agent's tool permissions are separate boundaries.
 5. **Evidence precedes claims.** A successful message, tool call or permission test is useful evidence for that behavior; it does not by itself prove a complete business workflow or its impact.
 
-## Roles beyond the company team
+## Roles and handoffs
 
-The broader operating setup also includes Veracto CEO, People & Performance, and the shared Meeting Notes role. They are shown separately from the six-role scoped company team. Meeting Notes serves personal and work intake; only appropriately scoped meeting material may support company workflows. People & Performance covers role requirements and assessment work, without implying that a real employee assessment has been conducted.
+People & Performance supports role requirements and assessment work, without implying that a real employee assessment has been conducted. Meeting Notes serves personal and work intake; when relevant, it can pass meeting context directly to CRM for follow-up. Chief of Staff coordinates work across roles, while a known task can still go directly to its responsible owner. The working diagram does not itself grant access to agent conversations or company resources.
 
 ## A verified coordination example
 
