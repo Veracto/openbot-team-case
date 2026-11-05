@@ -6,15 +6,15 @@ The system supports work such as content research and production, growth analysi
 
 ## The team at a glance
 
-[![Diagram of the Veracto agent team and scoped company resources](docs/team-map-clean.png)](docs/team-map-clean.png)
+[![Veracto agent team reporting and collaboration map](docs/team-map-hierarchy.png)](docs/team-map-hierarchy.png)
 
-[Open the full-size diagram](docs/team-map-clean.png)
+[Open the full-size diagram](docs/team-map-hierarchy.png)
 
 Agent avatars are rendered from [Bloub](https://github.com/NorbertBodziony/bloub) by Jérémy Perret, the avatar library used by OpenBot ([MIT license](docs/BLOUB-LICENSE.txt)).
 
-The diagram shows the six-role company team and additional owner-operated or shared roles, not a mandatory sequence for every task. **People & Performance** supports role and performance work; **Meeting Notes** handles meeting research and notes across personal and work contexts; **Veracto CEO** supports strategy and operations. These additional roles are outside the scoped six-role company team. The owner can work directly with the responsible flow owner. For company members, the current access design uses the company Chief of Staff as the chat entry point. Roles and access can evolve.
+The diagram shows the working organization: Chief of Staff coordinates the team; Content Lead directs Content Researcher, Content Producer and Growth Analyst. Meeting Notes can pass relevant meeting context to CRM directly. The owner can also work directly with the responsible agent. The diagram describes work relationships; access permissions are managed separately.
 
-## Two examples
+## Examples
 
 **CRM handoff — tested.** A native Chief of Staff → CRM Manager → Chief of Staff handoff was exercised and its result reconciled during the company-access acceptance. This establishes that the handoff can complete; it is not a claim of CRM conversion, revenue or an autonomous sales process.
 
