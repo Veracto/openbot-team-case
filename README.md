@@ -8,6 +8,8 @@ The system supports work such as content research and production, growth analysi
 
 ![Diagram of the Veracto agent team and scoped company resources](docs/team-map.svg)
 
+Agent avatars are rendered from [Bloub](https://github.com/NorbertBodziony/bloub) by Jérémy Perret, the avatar library used by OpenBot ([MIT license](docs/BLOUB-LICENSE.txt)).
+
 The diagram shows the company team and its supported collaboration paths, not a mandatory sequence for every task. The owner can work directly with the responsible flow owner. For company members, the current access design uses the company Chief of Staff as the chat entry point. Roles and access can evolve.
 
 ## Two examples
