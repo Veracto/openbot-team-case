@@ -6,33 +6,7 @@ The system supports work such as content research and production, growth analysi
 
 ## The team at a glance
 
-```mermaid
-flowchart TB
-    H["People at Veracto<br/>priorities, review, decisions"]
-    C["Chief of Staff<br/>company entry point & coordination"]
-    L["Content Lead<br/>content flow owner"]
-    R["Content Researcher<br/>sources & research"]
-    P["Content Producer<br/>drafts & materials"]
-    G["Growth Analyst<br/>analysis"]
-    M["CRM Manager<br/>CRM coordination"]
-    W["Approved company resources<br/>documents, files & project tools"]
-    H -->|"company team access"| C
-    C -->|"brief and coordinate"| L
-    C -->|"brief and coordinate"| G
-    C -->|"brief and coordinate"| M
-    L --> R
-    L --> P
-    R --> L
-    P --> L
-    L -->|"reviewable result"| C
-    G -->|"reviewable result"| C
-    M -->|"reviewable result"| C
-    C -->|"result and open decisions"| H
-    C -. "scoped access" .-> W
-    L -. "scoped access" .-> W
-    G -. "scoped access" .-> W
-    M -. "scoped access" .-> W
-```
+![Diagram of the Veracto agent team and scoped company resources](docs/team-map.svg)
 
 The diagram shows the company team and its supported collaboration paths, not a mandatory sequence for every task. The owner can work directly with the responsible flow owner. For company members, the current access design uses the company Chief of Staff as the chat entry point. Roles and access can evolve.
 
