@@ -6,9 +6,9 @@ The system supports work such as content research and production, growth analysi
 
 ## The team at a glance
 
-[![Diagram of the Veracto agent team and scoped company resources](docs/team-map.png)](docs/team-map.png)
+[![Diagram of the Veracto agent team and scoped company resources](docs/team-map-extended.png)](docs/team-map-extended.png)
 
-[Open the full-size diagram](docs/team-map.png)
+[Open the full-size diagram](docs/team-map-extended.png)
 
 Agent avatars are rendered from [Bloub](https://github.com/NorbertBodziony/bloub) by Jérémy Perret, the avatar library used by OpenBot ([MIT license](docs/BLOUB-LICENSE.txt)).
 
