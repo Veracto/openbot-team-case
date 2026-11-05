@@ -12,11 +12,15 @@ The system supports work such as content research and production, growth analysi
 
 Agent avatars are rendered from [Bloub](https://github.com/NorbertBodziony/bloub) by Jérémy Perret, the avatar library used by OpenBot ([MIT license](docs/BLOUB-LICENSE.txt)).
 
-The diagram shows the company team and its supported collaboration paths, not a mandatory sequence for every task. The owner can work directly with the responsible flow owner. For company members, the current access design uses the company Chief of Staff as the chat entry point. Roles and access can evolve.
+The diagram shows the six-role company team and additional owner-operated or shared roles, not a mandatory sequence for every task. **People & Performance** supports role and performance work; **Meeting Notes** handles meeting research and notes across personal and work contexts; **Veracto CEO** supports strategy and operations. These additional roles are outside the scoped six-role company team. The owner can work directly with the responsible flow owner. For company members, the current access design uses the company Chief of Staff as the chat entry point. Roles and access can evolve.
 
 ## Two examples
 
 **CRM handoff — tested.** A native Chief of Staff → CRM Manager → Chief of Staff handoff was exercised and its result reconciled during the company-access acceptance. This establishes that the handoff can complete; it is not a claim of CRM conversion, revenue or an autonomous sales process.
+
+**Meeting Notes — shared intake.** The shared Meeting Notes role processes meeting sources. When relevant, meeting outcomes can support task coordination and CRM follow-up; company use is limited to appropriately scoped material.
+
+**People & Performance — role scope.** This role supports role requirements and performance assessment; its presence does not establish that a real employee assessment was performed.
 
 **Content workflow — operating design.** A content brief can move from the Content Lead to research and production: explore the market and sources → develop ideas → create materials → review. The Lead owns the flow; a human reviews decisions and publication. This illustrates role boundaries, not a claim that this exact end-to-end sequence has been measured as a completed production case.
 
