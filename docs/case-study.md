@@ -12,6 +12,10 @@ A small organization has recurring work across research, content, growth and rel
 4. **Access is part of the operating model.** The company team uses defined company resources and tools; unrelated private contexts and administrative capabilities are outside its scope. A team-member interface and an agent's tool permissions are separate boundaries.
 5. **Evidence precedes claims.** A successful message, tool call or permission test is useful evidence for that behavior; it does not by itself prove a complete business workflow or its impact.
 
+## Roles beyond the company team
+
+The broader operating setup also includes Veracto CEO, People & Performance, and the shared Meeting Notes role. They are shown separately from the six-role scoped company team. Meeting Notes serves personal and work intake; only appropriately scoped meeting material may support company workflows. People & Performance covers role requirements and assessment work, without implying that a real employee assessment has been conducted.
+
 ## A verified coordination example
 
 During the 4 November 2026 access acceptance, the native company Chief of Staff → CRM Manager → Chief of Staff transport was tested and the returned result reconciled. The same acceptance exercised company-resource operations and negative-access checks. This is an operational handoff test, not a claim that a real customer was contacted or that a sales outcome occurred.
