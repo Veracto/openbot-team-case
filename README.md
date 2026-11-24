@@ -1,33 +1,24 @@
 # An AI agent team for Veracto operations
 
-How we organize specialized agents around real work: a human sets the outcome, an agent owns the flow, and specialists contribute within defined responsibilities and access boundaries. Built on [OpenBot](https://github.com/nightly-labs/openbot), this is an account of Veracto's operating setup and its ongoing development.
+Veracto uses [OpenBot](https://github.com/nightly-labs/openbot) for its internal AI team and [Gbrain](https://github.com/garrytan/gbrain) for company knowledge and background work. The agents research topics, prepare content and assemble client briefs from company records. People decide what to do with the results.
 
-The system supports work such as content research and production, growth analysis and CRM coordination. Our goal is a small team that can take a task from brief to a reviewable result while keeping people responsible for decisions and publication.
+## How the team works
 
-## The team at a glance
+Chief of Staff coordinates work across the OpenBot team. Content Lead coordinates research, production and growth analysis. Team members can also work directly with the agent responsible for a task. People & Performance helps with role requirements and assessment materials.
 
-[![Veracto agent team reporting and collaboration map](docs/team-map-hierarchy.png)](docs/team-map-hierarchy.png)
+Gbrain runs meeting processing in its own background queue. Its meeting worker reads approved transcripts, checks evidence against the source and publishes a summary with the agreements it found. When a meeting has a confirmed client record, the worker adds a link to the summary in Notion CRM. Chief of Staff uses these meeting notes alongside the current CRM record when preparing a brief.
 
-[Open the full-size diagram](docs/team-map-hierarchy.png)
+```mermaid
+flowchart LR
+    A[Approved meeting transcript] --> B[Gbrain meeting worker]
+    B --> C[Meeting summary in Gbrain]
+    B -->|Confirmed client match| D[Client record in Notion CRM]
+    C --> E[Client brief in OpenBot]
+    D --> E
+```
 
-Agent avatars are rendered from [Bloub](https://github.com/NorbertBodziony/bloub) by Jérémy Perret, the avatar library used by OpenBot ([MIT license](docs/BLOUB-LICENSE.txt)).
+## What we verified
 
-The diagram shows the working organization: Chief of Staff coordinates the team; Content Lead directs Content Researcher, Content Producer and Growth Analyst. Meeting Notes can pass relevant meeting context to CRM directly. The owner can also work directly with the responsible agent. The diagram describes work relationships; access permissions are managed separately.
+After the 21 November 2026 CRM cutover, we checked that the corporate memory integration and Notion returned the same client record. In a separate check, Chief of Staff prepared a client brief and cited the original meeting and the current CRM record.
 
-## Examples
-
-**CRM handoff — tested.** A native Chief of Staff → CRM Manager → Chief of Staff handoff was exercised and its result reconciled during the company-access acceptance. This establishes that the handoff can complete; it is not a claim of CRM conversion, revenue or an autonomous sales process.
-
-**Meeting Notes — shared intake.** The shared Meeting Notes role processes meeting sources. When relevant, meeting outcomes can support task coordination and CRM follow-up; company use is limited to appropriately scoped material.
-
-**People & Performance — role scope.** This role supports role requirements and performance assessment; its presence does not establish that a real employee assessment was performed.
-
-**Content workflow — operating design.** A content brief can move from the Content Lead to research and production: explore the market and sources → develop ideas → create materials → review. The Lead owns the flow; a human reviews decisions and publication. This illustrates role boundaries, not a claim that this exact end-to-end sequence has been measured as a completed production case.
-
-[Read the case study](docs/case-study.md) for design decisions, verification and the next development steps.
-
-## What we verified and what remains
-
-In the acceptance recorded on 4 November 2026, six company roles operated under scoped access. Checks included the CRM handoff, permitted company-resource operations and denial of selected out-of-scope routes. An ephemeral member was used to test the team interface. The first login from an actual teammate's device had not yet been verified at that point.
-
-This case describes an internal operating setup, not a commercial Veracto product or a claim that every workflow is fully autonomous. It does not include private conversations, client data, credentials, infrastructure addresses or internal agent instructions. OpenBot is an upstream project; Veracto's contribution is the way it is configured, integrated and applied to its own work.
+The [case study](docs/case-study.md) explains the workflow, the release checks and the original November setup. Veracto configured and integrated the upstream OpenBot and Gbrain platforms for its own work.
